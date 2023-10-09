@@ -48,7 +48,7 @@
     "BOT_INFO": {
       "description": "botname;ownername;ownernumber;image url",
       "required": true,
-      "value": "𝐹𝛥𝐺𝑈 𝐵𝛩𝑇;ꜰᴀᴅʜɪʟ;919995886562;https://imgur.io/Qui6BQ8?r"
+      "value": "𝐹𝛥𝐺𝑈 𝐵𝛩𝑇;ꜰᴀᴅʜɪʟ;919995886562;https://i.imgur.com/Qui6BQ8.jpeg"
     },
     "STICKER_DATA": {
       "description": "sticker package name",
@@ -58,7 +58,7 @@
     "AUDIO_DATA": {
       "description": "audio package name",
       "required": true,
-      "value": "𝐹𝛥𝐺𝑈 𝐵𝛩𝑇;ꜰᴀᴅʜɪʟ;https://imgur.io/Qui6BQ8?r"
+      "value": "𝐹𝛥𝐺𝑈 𝐵𝛩𝑇;ꜰᴀᴅʜɪʟ;https://i.imgur.com/Qui6BQ8.jpeg"
     },
     "READ_MSG": {
       "description": "Read all messages",
