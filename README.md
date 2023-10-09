@@ -49,11 +49,11 @@
 <a href='https://railway.app/template/q20OfH?referralCode=b9IKyc' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=railway&logoColor=white'/></a>
 
 
-*## ```Connect With Me```
+## ```Connect With Me```
 
 <p align="center">
 
-<a href="https://api.whatsapp.com/send?phone=+917012556562"><img src="https://img.shields.io/badge/Contact FAGU-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://api.whatsapp.com/send?phone=+919995886562"><img src="https://img.shields.io/badge/Contact FAGU-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 <a href="https://chat.whatsapp.com/BC8KNGgunQT9kpQhPNDOpr"><img src="https://img.shields.io/badge/Join Official GROUP-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
