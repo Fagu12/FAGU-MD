@@ -49,5 +49,12 @@
 <a href='https://railway.app/template/q20OfH?referralCode=b9IKyc' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=railway&logoColor=white'/></a>
 
 
-***
-<a href="https://chat.whatsapp.com/Czc4zb42smmHIkso3Od0ir"><img alt="WhatsApp" src="https://img.shields.io/badge/-Whatsapp%20Group-blue?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+*## ```Connect With Me```
+
+<p align="center">
+
+<a href="https://api.whatsapp.com/send?phone=+917012556562"><img src="https://img.shields.io/badge/Contact FAGU-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+
+<a href="https://chat.whatsapp.com/BC8KNGgunQT9kpQhPNDOpr"><img src="https://img.shields.io/badge/Join Official GROUP-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+
+<br>
