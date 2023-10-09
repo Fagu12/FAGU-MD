@@ -6,7 +6,8 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 
-const toBool = (x) => x == 'true'
+const toBool = (x) => (x && x.toLowerCase() === 'true') || false;
+
 global.apikey = {'https://api.adithyan.xyz': 'free'}
 global.apiUrl = 'https://api.adithyan.xyz/'
 
@@ -18,7 +19,7 @@ module.exports = {
     SESSION_ID: process.env.SESSION_ID || '',
     MODE: (process.env.MODE || 'public').toLowerCase(),
     HANDLERS: (process.env.PREFIX || '^[.,!]').trim(),
-    SEND_READ: process.env.READ_COMMAND || false,
+    SEND_READ: (process.env.READ_COMMAND || false),
     READ_MSG: process.env.READ_MSG === 'true', 
     MSG_LOG: convertToBool(process.env.LOG_MSG) || false, 
     BLOCKCHAT: process.env.BLOCK_CHAT === undefined ? false : process.env.BLOCK_CHAT,
@@ -41,6 +42,8 @@ module.exports = {
     TERMUX_VPS: toBool(process.env.TERMUX || process.env.VPS),
     AUTO_STATUS_VIEW: toBool(process.env.AUTO_STATUS_VIEW),
     APIKEY: process.env.APIKEY || 'free',
+    AUTH_FILE: process.env.AUTH_FILE || false,
+    START_MSG: toBool(process.env.START_MSG || 'true'),
     HEROKU: {
         HEROKU: process.env.HEROKU === undefined ? false : convertToBool(process.env.HEROKU),
         API_KEY: process.env.HEROKU_API_KEY,
