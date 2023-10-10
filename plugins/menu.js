@@ -70,6 +70,30 @@ Function({
 	if (img.length == 0) {
 		img = ['https://i.imgur.com/qJUBCYm.jpeg']
 	}
+	const image = img[Math.floor(Math.random() * img.length)]
+	const type = image.endsWith('mp4') ? 'video' : 'image'
+	const buttonMessage = {
+		[type]: {
+			url: image
+		},
+		caption: `${msg}`,
+		footer: `${BOT_INFO.split(";")[0] || ' '}`,
+		buttons: [{
+				buttonId: prefix + 'ping',
+				buttonText: {
+					displayText: 'Speed Test'
+				},
+				type: 1
+			},
+			{
+				buttonId: prefix + 'list',
+				buttonText: {
+					displayText: 'List Commands'
+				},
+				type: 1
+			}
+		]
+	}
 	await message.send(msg);
 	/* var img = await parsedUrl(BOT_INFO)
 	if (img.length == 0) {
