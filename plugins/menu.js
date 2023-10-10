@@ -66,6 +66,10 @@ Function({
 		msg += `╰─────────────┈⊷
 `
 	}
+	var img = await parsedUrl(BOT_INFO)
+	if (img.length == 0) {
+		img = ['https://i.imgur.com/qJUBCYm.jpeg']
+	}
 	await message.send(msg);
 	/* var img = await parsedUrl(BOT_INFO)
 	if (img.length == 0) {
